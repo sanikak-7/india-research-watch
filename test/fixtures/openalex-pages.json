@@ -1,0 +1,102 @@
+{
+  "2024": [
+    {
+      "results": [
+        {
+          "id": "https://openalex.org/W1",
+          "publication_year": 2024,
+          "cited_by_count": 10,
+          "is_retracted": false,
+          "primary_topic": {
+            "id": "https://openalex.org/T1",
+            "display_name": "Example topic",
+            "subfield": {
+              "id": "https://openalex.org/subfields/1000",
+              "display_name": "Example subfield"
+            }
+          },
+          "citation_normalized_percentile": {
+            "is_in_top_10_percent": true,
+            "is_in_top_1_percent": false
+          }
+        },
+        {
+          "id": "https://openalex.org/W1",
+          "publication_year": 2024,
+          "cited_by_count": 10,
+          "is_retracted": false,
+          "primary_topic": {
+            "id": "https://openalex.org/T1",
+            "display_name": "Example topic",
+            "subfield": {
+              "id": "https://openalex.org/subfields/1000",
+              "display_name": "Example subfield"
+            }
+          },
+          "citation_normalized_percentile": {
+            "is_in_top_10_percent": true,
+            "is_in_top_1_percent": false
+          }
+        },
+        {
+          "id": "https://openalex.org/W2",
+          "publication_year": 2024,
+          "cited_by_count": 0,
+          "is_retracted": false,
+          "primary_topic": null,
+          "citation_normalized_percentile": null
+        },
+        {
+          "id": "https://openalex.org/W3",
+          "publication_year": 2024,
+          "cited_by_count": 5,
+          "is_retracted": false,
+          "primary_topic": {
+            "id": "https://openalex.org/T2",
+            "display_name": "Topic without subfield",
+            "subfield": null
+          },
+          "citation_normalized_percentile": {
+            "is_in_top_10_percent": true,
+            "is_in_top_1_percent": true
+          }
+        },
+        {
+          "id": "https://openalex.org/W4",
+          "publication_year": 2024,
+          "cited_by_count": 99,
+          "is_retracted": true,
+          "primary_topic": null,
+          "citation_normalized_percentile": {
+            "is_in_top_10_percent": true,
+            "is_in_top_1_percent": true
+          }
+        }
+      ]
+    }
+  ],
+  "2025": [
+    {
+      "results": [
+        {
+          "id": "https://openalex.org/W5",
+          "publication_year": 2025,
+          "cited_by_count": 7,
+          "is_retracted": false,
+          "primary_topic": {
+            "id": "https://openalex.org/T1",
+            "display_name": "Example topic",
+            "subfield": {
+              "id": "https://openalex.org/subfields/1000",
+              "display_name": "Example subfield"
+            }
+          },
+          "citation_normalized_percentile": {
+            "is_in_top_10_percent": false,
+            "is_in_top_1_percent": false
+          }
+        }
+      ]
+    }
+  ]
+}

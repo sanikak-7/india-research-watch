@@ -1,0 +1,13 @@
+sector,short_name,combined_expenditure_cr,yoy_growth_pct,patents_granted,scientific_citations,key_institutions,color,description
+Transportation,Transport,39286.45,35.7,,,,#ff6b4a,India's largest industry R&D group by combined public and private expenditure.
+Drugs & Pharmaceuticals,Pharma,25849.93,15.3,,,,#7b61ff,Combined public and private industry R&D expenditure in pharmaceuticals.
+Biotechnology,Biotech,10322.83,5.8,,,,#e7b84a,Combined public and private industry R&D expenditure in biotechnology.
+Information Technology,IT,9587.44,50.6,,,,#f0904c,Combined public and private industry R&D expenditure in information technology.
+Electricals & Electronics,Electronics,7071.76,30.0,,,,#b5d76f,Combined public and private industry R&D expenditure in electricals and electronics.
+Fuels,Fuels,6368.46,21.8,,,,#57c7bb,Combined public and private industry R&D expenditure in fuels.
+Chemicals other than Fertilizers,Chemicals,3367.99,10.1,,,,#64a8ff,Combined public and private industry R&D expenditure in chemicals other than fertilizers.
+Industrial Equipment,Equipment,1880.35,9.1,,,,#3bcf9c,Combined public and private industry R&D expenditure in industrial equipment.
+Agricultural Machinery,Agri machinery,1846.83,14.1,,,,#d983e7,Combined public and private industry R&D expenditure in agricultural machinery.
+Metallurgical Industries,Metals,1264.02,-16.5,,,,#6ea6d8,Combined public and private industry R&D expenditure in metallurgical industries.
+Rubber,Rubber,1148.43,16.5,,,,#ed7690,Combined public and private industry R&D expenditure in rubber.
+Food Processing Industries,Food processing,893.43,10.3,,,,#5cbdde,Combined public and private industry R&D expenditure in food processing.
