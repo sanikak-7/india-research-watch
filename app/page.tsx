@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowUpRight, Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import "./funding.css";
 
@@ -313,7 +314,7 @@ export default function Home() {
   });
   const focus = hovered || selected;
   return <main>
-    <nav><div className="brand"><span className="brand-mark">IRW</span><span>India Research Watch</span></div><div className="nav-links"><button className={activeTab === "explorer" ? "active" : ""} onClick={()=>setActiveTab("explorer")}>Explorer</button><button className={activeTab === "funding" ? "active" : ""} onClick={()=>setActiveTab("funding")}>Funding Sources</button><button className={activeTab === "workforce" ? "active" : ""} onClick={()=>setActiveTab("workforce")}>Workforce</button><button className={activeTab === "methodology" ? "active" : ""} onClick={()=>setActiveTab("methodology")}>Methodology</button><button className={activeTab === "about" ? "active" : ""} onClick={()=>setActiveTab("about")}>About</button></div><Menu className="mobile-menu" /></nav>
+    <nav><div className="brand"><span className="brand-mark">IRW</span><span>India Research Watch</span></div><div className="nav-links"><button className={activeTab === "explorer" ? "active" : ""} onClick={()=>setActiveTab("explorer")}>Explorer</button><button className={activeTab === "funding" ? "active" : ""} onClick={()=>setActiveTab("funding")}>Funding Sources</button><button className={activeTab === "workforce" ? "active" : ""} onClick={()=>setActiveTab("workforce")}>Workforce</button><Link href="/citations" className="nav-link">Citations</Link><button className={activeTab === "methodology" ? "active" : ""} onClick={()=>setActiveTab("methodology")}>Methodology</button><button className={activeTab === "about" ? "active" : ""} onClick={()=>setActiveTab("about")}>About</button></div><Menu className="mobile-menu" /></nav>
     {activeTab === "funding" ? <FundingSources fundingYears={fundingYears} fundingSources={fundingSources} /> : activeTab === "workforce" ? <WorkforceChart workforceSectors={workforceSectors} /> : activeTab === "methodology" ? <Methodology /> : activeTab === "about" ? <About /> : <>
     <section className="hero"><div className="eyebrow"><span/> National R&D intelligence platform</div><h1>Research that <em>shapes</em><br/>a nation.</h1><p>Explore India&apos;s investment in science — sector by sector, discovery by discovery.</p></section>
     <section className="explorer">
